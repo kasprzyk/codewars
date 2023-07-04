@@ -1,4 +1,4 @@
-var beeramid = (bonus, price) => {
+const beeramid = (bonus, price) => {
   let beeramidLevels = 0;
   let beeramidPrice = price*beeramidLevels;
   while(beeramidPrice<=bonus){
